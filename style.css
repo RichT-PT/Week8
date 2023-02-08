@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(225, 234, 239);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color:rgb(6, 43, 154);
+}
+h3 {
+    font-size: 1rem;
+    width: 30ch;
+}
+p {
+    display: inline;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    
+    background-color: rgb(48, 86, 157);
+    border: o.5em
+
+}
+div button {
+    background-color: silver;
+    color:rgb(0, 0, 0);
+    font-stretch: wider;
+    border-radius: 8px;
+    border: 2px solid rgb(176, 0, 0)
+}
