@@ -7,8 +7,8 @@ h1 {
     color:rgb(6, 43, 154);
 }
 h3 {
-    font-size: 1rem;
-    width: 30ch;
+    padding: 0;
+    margin: 0;
 }
 p {
     display: inline;
@@ -20,13 +20,81 @@ form {
 .button {
     
     background-color: rgb(48, 86, 157);
-    border: o.5em
+    border: o.5em;
+    padding: 10px;
+    margin-bottom: 10px;
 
 }
+#firstImage{
+    float: left; 
+    /*border: 2px solid red;*/ 
+    margin: 0 10px 0 0; 
+    width: 260px; 
+}
+#secondImage{
+    float: left; 
+   /* border: 2px solid green; */
+}
+#secondImageChild1{
+    float: left;
+    padding: 20px 0 10px 0;
+    width: 225px;
+    /* border: 2px solid rgb(255, 0, 238); */
+}
+#secondImageChild2{
+    float: left; 
+    padding: 50px 20px 10px 0;
+    /* border: 2px solid rebeccapurple; */
+}
+#secondImageTextBlock{
+    float: left;
+    padding: 40px 0 0 10px;
+    width: 280px;
+}
+
+#noteableMoments{
+    background-color: rgb(154, 219, 220);
+}
+#r2d2repair{
+    margin-top: 20px;
+}
+#repair{
+    margin-top: 10;
+    margin-left: 10px;
+}
+#lightsaber{
+
+}
+#lightsabertext{
+
+}
+
 div button {
     background-color: silver;
     color:rgb(0, 0, 0);
     font-stretch: wider;
     border-radius: 8px;
     border: 2px solid rgb(176, 0, 0)
+}
+
+table {
+    width: 100%;
+    border: 5px white solid;
+}
+
+td {
+    width: 100%;
+    vertical-align: top;
+    /* border: 1px green solid; */
+}
+
+img{
+    border: 3px solid #251c7c;
+}
+.padright{
+    padding-right: 20px;
+}
+
+.clear {
+    clear: both;
 }

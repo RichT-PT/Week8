@@ -7,66 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body id="noteableMoments">
     <h1>Noteable Moments</h1>
     <div class="button">
-        <button><a href="index.html">Home </a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button><a href="about.html">About</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button><a href="noteableMoments.html">Noteable Moments</a></button><br><br>
+        <span class="padright"><button><a href="index.html">Home </a></button></span>
+        <span class="padright"><button><a href="about.html">About </a></button></span>
+        <button><a href="noteableMoments.html">Noteable Moments</a></button>
     </div>
-    <table cellpadding="10" width="800" border="1">
+    <table>
         <tr>
             <td>
-                <img title="Image from Pinterest"src="https://i.pinimg.com/originals/25/dc/8b/25dc8b8be20c0c50e6d4970b22dddbc7.jpg" width="200">
-            </td>
-            <td width="200">
-                 <img title="Image from StarWars.com"src="https://lumiere-a.akamaihd.net/v1/images/image_88f51c0e.jpeg?region=0%2C0%2C1560%2C878" width="200">
-
-            </td>
-            <td width="200">
-                 <img title="Image from Quora"src="https://qph.cf2.quoracdn.net/main-qimg-b5300f9493a3d679468ce8f39f18144b-pjlq" width="200">
+                <!-- Leia pic div -->
+                <div id="firstImage">
+                    <div>
+                        <img title="Image from Pinterest"src="https://i.pinimg.com/originals/25/dc/8b/25dc8b8be20c0c50e6d4970b22dddbc7.jpg" width= "250">
+                    </div>
+                    <div>
+                        Leia giving R2 critical data to give the rebellion a new hope
+                    </div>
+                </div>
+                <!-- div holding 2 R2D2 pics -->
+                <div id="secondImage">
+                    <!-- stacked div 1 -->
+                    <div id="secondImageChild1">
+                        <img id="r2d2repair" title="Image from StarWars.com"src="https://lumiere-a.akamaihd.net/v1/images/image_88f51c0e.jpeg?region=0%2C0%2C1560%2C878" width="200">
+                    </div>
+                    <div id="secondImageTextBlock">
+                        <h3>Repairing the shields on princess Amidala's ship when other droids were destroyed trying, proving the point, &quot; It's better to be lucky than good! &quot; Even for a droid!</h3>
+                    </div>
+                    <div class="clear"></div>
+                    <!-- stacked div 1 -->
+                    <div id="secondImageChild2">
+                        <img id="lightsaber" title="Image from Quora"src="https://qph.cf2.quoracdn.net/main-qimg-b5300f9493a3d679468ce8f39f18144b-pjlq" width="200">
+                    </div>
+                    <div style="float: left; padding: 50px 0 10px 0; width: 280px;">
+                        <h3 id="lightsabertext">Providing Luke his lightsaber at a critical moment</h3>
+                    </div>
+                    <div class="clear"></div>
+                </div>
             </td>
         </tr>
         <tr>
             <td>
-                <h3>Leia giving R2 critical data to give the rebellion a new hope</h3>
-            </td>
-            <td>
-                 <h3>Repairing the shields on princess Amidala's ship when other droids were destroyed trying, proving the point, &quot; It's better to be lucky than good! &quot; Even for a droid!</h3>
-            </td>
-            <td>
-                 <h3>Providing Luke his lightsaber at a critical moment</h3>
-            </td>
-        </tr>
-        <tr>
-            <td width="200">
-                <img title="Image from Wookieepedia"src="https://static.wikia.nocookie.net/starwars/images/9/96/Artoo_lights_up_B2s.jpg/revision/latest?cb=20100203162251" 
-       width="200">
-            </td>
-        </tr>
-        <tr>
-            <td width="200">
-                <h3>R2 casually spraying oil on droids and using his rockets to catch them on fire so he can go back to rescuing everyone</h3>
+                <div style="float: left; margin: 10px 10px 0 0;">
+                    <img title="Image from Wookieepedia"src="https://static.wikia.nocookie.net/starwars/images/9/96/Artoo_lights_up_B2s.jpg">
+                </div>
+                <div style="float: left; padding: 10px 0 10px 0; width: 280px;">
+                    <h3>R2 casually spraying oil on droids and using his rockets to catch them on fire so he can go back to rescuing everyone</h3>
+                </div>
+                <div class="clear"></div>
+                
             </td>
         </tr>
     </table>
 
    
        
-        <!-- <div class="img-with-text">   
-    <img src="https://i.pinimg.com/originals/25/dc/8b/25dc8b8be20c0c50e6d4970b22dddbc7.jpg"alt="Princess Liea delivering the message to R2"
-    height="300"/>
-    <p>Princess Liea sending her<br> only hope message</p>
-    </div> -->
-    
-<!-- <div class="img-with-text">
-    <img src="https://lumiere-a.akamaihd.net/v1/images/image_88f51c0e.jpeg?region=0%2C0%2C1560%2C878"alt="R2 repairing shields on queen Amidala's ship"
-    height="300"/>
-    <p>R2 repairing the shields on princess Amidala's ship when other droids were <br>
-        destroyed trying, proving the point, "It's better to be lucky than good!<br>
-    even for a droid!</p> -->
-    <!-- <p style="float: center; font-size: 9pt; text-align: center; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
-        <img src="https://lumiere-a.akamaihd.net/v1/images/image_88f51c0e.jpeg?region=0%2C0%2C1560%2C878" style="width: 100%">Caption</p>
-</div> -->
+  
 </body>
 </html>
