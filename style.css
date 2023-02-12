@@ -17,6 +17,13 @@ form {
     display: flex;
     justify-content: center;
 }
+div button {
+    background-color: silver;
+    color:rgb(0, 0, 0);
+    font-stretch: wider;
+    border-radius: 8px;
+    border: 2px solid rgb(176, 0, 0)
+}
 .button {
     
     background-color: rgb(48, 86, 157);
@@ -41,7 +48,7 @@ form {
     width: 225px;
     /* border: 2px solid rgb(255, 0, 238); */
 }
-#secondImageChild2{
+#thirdImageChild2{
     float: left; 
     padding: 50px 20px 10px 0;
     /* border: 2px solid rebeccapurple; */
@@ -49,6 +56,20 @@ form {
 #secondImageTextBlock{
     float: left;
     padding: 40px 0 0 10px;
+    width: 280px;
+}
+#thirdImageTextBlock{
+    float: left;
+    padding: 50px 0 10px 0;
+    width: 280px;
+}
+#fourthImage{
+    float: left;
+    margin: 10px 10px 0 0;
+}
+#fourthImageTextBlock{
+    float: left;
+    padding: 10px 0 10px 0;
     width: 280px;
 }
 
@@ -69,13 +90,7 @@ form {
 
 }
 
-div button {
-    background-color: silver;
-    color:rgb(0, 0, 0);
-    font-stretch: wider;
-    border-radius: 8px;
-    border: 2px solid rgb(176, 0, 0)
-}
+
 
 table {
     width: 100%;
